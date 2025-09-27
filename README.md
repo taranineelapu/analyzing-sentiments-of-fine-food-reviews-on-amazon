@@ -14,6 +14,13 @@ This project analyzes customer sentiments from Amazon Fine Food using both VADER
 * **Evaluation:** Compared model outputs against customer ratings to assess accuracy and effectiveness.
 * **Visualization:** Used matplotlib and pandas plots to illustrate sentiment trends and correlations with ratings.
 
+# Key Insights
+
+* VADER provided fast, interpretable sentiment scores but showed limitations with longer, complex reviews.
+* Logistic Regression delivered higher accuracy by learning sentiment patterns directly from the dataset.
+* Sentiment polarity aligned strongly with customer ratings, validating the models’ effectiveness.
+* Combining rule-based and machine learning approaches can yield more reliable sentiment analysis results for large-scale review data.
+
 # Tools & Technologies
 **Language:** Python
 **Libraries:** NLTK (VADER), scikit-learn, pandas, matplotlib
